@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <AssemblyVersion>2018.2.27.1800</AssemblyVersion>
+    <FileVersion>2018.2.27.1800</FileVersion>
+  </PropertyGroup>
+
+</Project>

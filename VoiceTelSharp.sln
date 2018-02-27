@@ -3,7 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceTelSharp.Lib", "VoiceTelSharp.Lib\VoiceTelSharp.Lib.csproj", "{FF1CDED4-D12C-4C1E-B944-3B06059F346C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceTelSharp.Test", "VoiceTelSharp.Test\VoiceTelSharp.Test.csproj", "{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Debug|x64.ActiveCfg = Debug|x64
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Debug|x64.Build.0 = Debug|x64
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Debug|x86.ActiveCfg = Debug|x86
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Debug|x86.Build.0 = Debug|x86
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Release|x64.ActiveCfg = Release|x64
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Release|x64.Build.0 = Release|x64
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Release|x86.ActiveCfg = Release|x86
+		{FF1CDED4-D12C-4C1E-B944-3B06059F346C}.Release|x86.Build.0 = Release|x86
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Debug|x64.ActiveCfg = Debug|x64
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Debug|x64.Build.0 = Debug|x64
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Debug|x86.ActiveCfg = Debug|x86
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Debug|x86.Build.0 = Debug|x86
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Release|x64.ActiveCfg = Release|x64
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Release|x64.Build.0 = Release|x64
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Release|x86.ActiveCfg = Release|x86
+		{6F9FE4AD-8CDD-4524-A10D-2AF5E979287C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

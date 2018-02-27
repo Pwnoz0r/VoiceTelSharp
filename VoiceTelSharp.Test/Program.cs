@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright (c) 2018 Initial Servers LLC. All rights reserved.
+// https://initialservers.com/
+
+using System;
 using System.Threading.Tasks;
 
 namespace VoiceTelSharp.Test

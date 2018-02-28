@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Threading.Tasks;
 using VoiceTelSharp.Lib.Controllers;
 using VoiceTelSharp.Lib.Models.Account;
@@ -41,6 +42,7 @@ namespace VoiceTelSharp.Test
             //{
             //    {"ip_address", $"{IPAddress.Parse("127.0.0.1")}"}
             //});
+
             var gatewayList = await VoiceTel.Request<GatewayList>();
 
             //var gatewaySet = await VoiceTel.Request<GatewaySet>(new Dictionary<string, string>
@@ -48,6 +50,7 @@ namespace VoiceTelSharp.Test
             //    {"ID", ""},
             //    {"DID", ""}
             //});
+
             var numberList = await VoiceTel.Request<NumberList>();
 
             var numberSearchNpa = await VoiceTel.Request<NumberSearchNpa>(new Dictionary<string, string>
@@ -59,7 +62,7 @@ namespace VoiceTelSharp.Test
             {
                 {"NPANXX", "201223"}
             });
-            //var numberOrder = await VoiceTel.Request<NumberOrder>();
+            var numberOrder = await VoiceTel.Request<NumberOrder>();
 
             #endregion
 
@@ -80,6 +83,7 @@ namespace VoiceTelSharp.Test
             //    {"destination_number", ""},
             //    {"caller_number", ""}
             //});
+
             var numberCoverage = await VoiceTel.Request<NumberCoverage>(new Dictionary<string, string>
             {
                 {"NPA", "201"}
@@ -89,12 +93,12 @@ namespace VoiceTelSharp.Test
 
             #region SMS
 
-            var groupSms = await VoiceTel.Request<GroupSms>(new Dictionary<string, string>
-            {
-                {"destination_number", "num1,num2,num3,numX"},
-                {"caller_number", ""},
-                {"message", $"Did you know it was {DateTime.UtcNow:F}?"}
-            });
+            //var groupSms = await VoiceTel.Request<GroupSms>(new Dictionary<string, string>
+            //{
+            //    {"destination_number", "num1,num2,num3,numX"},
+            //    {"caller_number", ""},
+            //    {"message", $"Did you know it was {DateTime.UtcNow:F}?"}
+            //});
 
             //var mdr = await VoiceTel.Request<Mdr>(new Dictionary<string, string>
             //{

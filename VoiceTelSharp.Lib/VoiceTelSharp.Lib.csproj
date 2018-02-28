@@ -2,9 +2,34 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Platforms>AnyCPU;x64;x86</Platforms>
-    <AssemblyVersion>2018.2.28.0513</AssemblyVersion>
-    <FileVersion>2018.2.28.0513</FileVersion>
+    <Platforms>x64;x86;AnyCPU</Platforms>
+    <AssemblyVersion>2018.2.28.1310</AssemblyVersion>
+    <FileVersion>2018.2.28.1310</FileVersion>
+    <Version>1.0.0</Version>
+    <Authors>Jonathan [Pwnoz0r] Rainier</Authors>
+    <Company>Initial Servers LLC.</Company>
+    <Description>A simple asynchronous library that connects you with VoiceTel's REST API</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Pwnoz0r/VoiceTelSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Pwnoz0r/VoiceTelSharp</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage></NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/Pwnoz0r/VoiceTelSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>voicetel asynchronous library</PackageTags>
+    <Copyright>Copyright (c) 2018 Jonathan [Pwnoz0r] Rainier</Copyright>
+    <PackageIconUrl>https://initialservers.com/img/extra/voicetelsharp/phone_icon.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>

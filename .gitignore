@@ -262,3 +262,4 @@ __pycache__/
 
 # Additional File Types
 *.licenseheader
+/VoiceTelSharp.Test/Properties

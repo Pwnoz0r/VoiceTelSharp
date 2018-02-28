@@ -4,6 +4,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using Newtonsoft.Json;
+using VoiceTelSharp.Lib.Converters;
 
 namespace VoiceTelSharp.Lib.Models.Call
 {
@@ -33,6 +34,7 @@ namespace VoiceTelSharp.Lib.Models.Call
         [JsonProperty("rateCenter")] public RateCenter RateCenter { get; set; }
     }
 
+    [JsonConverter(typeof(NumberSearchConverter))]
     public class Numbers
     {
         [JsonProperty("telephoneNumber")] public IList<TelephoneNumber> TelephoneNumber { get; set; }

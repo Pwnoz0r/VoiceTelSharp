@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 namespace VoiceTelSharp.Lib.Models.Sms
 {
     [Description(
-        "https://api.voicetel.com/groupsms/[destination_number]-[dst_#2]-[dst_#3]/[caller_number]/[message]/[api_key]/")]
+        "https://api.voicetel.com/groupsms/[destination_number]/[caller_number]/[message]/[api_key]/")]
     public class GroupSms
     {
         [JsonProperty("status")] public string Status { get; set; }

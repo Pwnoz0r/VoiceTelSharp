@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <Platforms>x64;x86;AnyCPU</Platforms>
-    <AssemblyVersion>2018.2.28.1310</AssemblyVersion>
-    <FileVersion>2018.2.28.1310</FileVersion>
+    <AssemblyVersion>2018.3.2.0532</AssemblyVersion>
+    <FileVersion>2018.3.2.0532</FileVersion>
     <Version>1.0.0</Version>
     <Authors>Jonathan [Pwnoz0r] Rainier</Authors>
     <Company>Initial Servers LLC.</Company>
@@ -18,6 +18,7 @@
     <PackageTags>voicetel asynchronous library</PackageTags>
     <Copyright>Copyright (c) 2018 Jonathan [Pwnoz0r] Rainier</Copyright>
     <PackageIconUrl>https://initialservers.com/img/extra/voicetelsharp/phone_icon.png</PackageIconUrl>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
